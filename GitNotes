@@ -1,7 +1,12 @@
 Helpful git CLI commands:
 
-   > git clone <url>
+   > git clone <url>  (make local copy of an existing remote repository)
 ex)    > git clone https://github.com/wlabagnara/projGitBye.git
+
+   > git init   (to first time init of existing code base)
+ex)    cd to the directory where your code exists
+       > git init
+
    > git status
    > git add <filename>
 or > git add .   // add everything in your directory
@@ -10,3 +15,10 @@ or > git add -A  // add ALL
      (if you leave off -m part, then will be put in  VI editor. Use 'i' to insert, then can enter message and then <esc>, then ':wq' to exit)
    > git push    // file(s) pushed to github site
    > git pull    // file(s) pulled from github site
+
+   -----
+
+   git --help  or  git <verb> --help  or  git help <verb> 
+   git config --list
+     git config --global user.name "wlab"
+     git config --global user.email "wlabagnara@yahoo.com"
