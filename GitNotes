@@ -1,0 +1,11 @@
+Helpful git CLI commands:
+
+   > git clone <url>
+ex)    > git clone https://github.com/wlabagnara/projGitBye.git
+   > git status
+   > git add <filename>
+or > git add .   // add everything in your directory
+or > git add -A  // add ALL
+   > git commit -m"add a nice message here..."
+   > git push    // file(s) pushed to github site
+   > git pull    // file(s) pulled from github site
