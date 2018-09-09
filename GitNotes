@@ -7,6 +7,6 @@ ex)    > git clone https://github.com/wlabagnara/projGitBye.git
 or > git add .   // add everything in your directory
 or > git add -A  // add ALL
    > git commit -m"add a nice message here..."
-     (if you leave off -m part, then will be put in  VI editor. Can enter message and then <esc>, then ':wq' to exit)
+     (if you leave off -m part, then will be put in  VI editor. Use 'i' to insert, then can enter message and then <esc>, then ':wq' to exit)
    > git push    // file(s) pushed to github site
    > git pull    // file(s) pulled from github site
