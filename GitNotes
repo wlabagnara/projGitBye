@@ -8,17 +8,22 @@ ex)    cd to the directory where your code exists
        > git init
 
    > git status
-   > git add <filename>
-or > git add .   // add everything in your directory
-or > git add -A  // add ALL
+
+   > git add <filename>   or   git add .   or   git add -A  // to add a file or ALL
+
    > git commit -m"add a nice message here..."
-     (if you leave off -m part, then will be put in  VI editor. Use 'i' to insert, then can enter message and then <esc>, then ':wq' to exit)
+     (if you leave off -m part, then you'll be put in  VI editor. 
+      Use 'i' to insert, then can enter message and then <esc> and then ':wq' to exit)
+   
    > git push    // file(s) pushed to github site
    > git pull    // file(s) pulled from github site
 
    -----
 
-   git --help  or  git <verb> --help  or  git help <verb> 
-   git config --list
-     git config --global user.name "wlab"
-     git config --global user.email "wlabagnara@yahoo.com"
+   > git --help  or  git <verb> --help  or  git help <verb>
+
+   > git config --list  // list your configuration
+     > git config --global user.name "wlabagnara"            // change your username and email
+     > git config --global user.email "wlabagnara@yahoo.com"
+     > git commit --amend --reset-author
+     
