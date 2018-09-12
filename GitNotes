@@ -5,7 +5,8 @@ ex)    > git clone https://github.com/wlabagnara/projGitBye.git
 
    > git init   (to first time init of existing code base)
 ex)    cd to the directory where your code exists
-       > git init
+       > git init     // creates .git folder in your directory
+       > rm -rf .git  // if you want to stop tracking this as a repository
 
    > git status
 
@@ -26,4 +27,3 @@ ex)    cd to the directory where your code exists
      > git config --global user.name "wlabagnara"            // change your username and email
      > git config --global user.email "wlabagnara@yahoo.com"
      > git commit --amend --reset-author
-     
