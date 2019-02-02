@@ -1,0 +1,26 @@
+*** Helpful XCODE Note ***
+
+* Shortcut Keys:
+
+CMD-R = Run application
+
+CMD-0 = Open/hide left most pane
+CMD-1 -2 -3 etc = Navigate tabs of left pane
+
+CMD-OPT-0 = Open/hide right most pane
+CMD-OPT-1 -2 -3 etc = Navigate tabs of right pane
+
+CMD-OPT-enter = Open assistant editor
+CMD-enter = Hide assistant editor pane
+CTRL-` = Move focus between editor panes ( the " ` " key is on top left with " ~ " (tilde) key)
+
+CMD-/ = After selecting a block of code to comment it all out
+        Do CMD-/ againg to uncomment the selected block
+
+CTRL-I = After selecting a block of code to automagically indent it all
+
+CMD-SHFT-O = Open files helper (that's the letter 'O')
+
+* Tags:
+
+Add the comment text " // MARK: " on a line to add it to top folder browser 
