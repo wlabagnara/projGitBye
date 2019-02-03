@@ -35,3 +35,13 @@ CMD-8 = To go to breakpoint tab in left pane
 In debug console on lower right part of debug pane, at "(lldb)" prompt
         (lldb) po <object name> = to print an object
         (lldb) p <whatever>     = XCODE determines best print format for your <whatever>
+
+* Adding Libraries 
+
+CMD-1 (go to left pane) and click on project name.
+        Go to Build Phases and then Link Binary with Libraries
+        See "+" (plus sign) and click
+        Use search to find a library (i.e.- Mapkit)
+        Select the library and note on left pane under Framework folder will
+          now have that library (MapKit) shown.
+        Now, go to any file and add "Import MapKit" at the top... Have fun Mapkit'ing!
