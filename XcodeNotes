@@ -28,11 +28,10 @@ Add the comment text " // MARK: " on a line to add it to top folder browser
 * Debug
 
 CMD-8 = To go to breakpoint tab in left pane
-        On lower left of breakpoint pane, there is '+' (plus sign)
-        Click this and you'll see all the breakpoint options
-        for instance, Execption breakpoint
+        On lower left of breakpoint pane, there is '+' (plus sign).
+        Click this and you'll see all the breakpoint options.
+        For instance, Execption breakpoint
 
 In debug console on lower right part of debug pane, at "(lldb)" prompt
-        (lldb) po <object name> = to print and object
+        (lldb) po <object name> = to print an object
         (lldb) p <whatever>     = XCODE determines best print format for your <whatever>
-        
