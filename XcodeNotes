@@ -36,6 +36,10 @@ In debug console on lower right part of debug pane, at "(lldb)" prompt
         (lldb) po <object name> = to print an object
         (lldb) p <whatever>     = XCODE determines best print format for your <whatever>
 
+Rotate your device in XCODE simulator:
+
+        CMD- arrow keys (up, down, left, right)
+
 * Adding Libraries 
 
 CMD-1 (go to left pane) and click on project name.
@@ -45,3 +49,25 @@ CMD-1 (go to left pane) and click on project name.
         Select the library and note on left pane under Framework folder will
           now have that library (MapKit) shown.
         Now, go to any file and add "Import MapKit" at the top... Have fun Mapkit'ing!
+
+* Created project PlayingCard in XCODE, with git source control enabled.
+
+   1. Then created a PlayingCard repository on github.
+   2. One of the suggested options on the github site was to ...
+
+     …or push an existing repository from the command line
+       git remote add origin https://github.com/wlabagnara/PlayingCard.git
+       git push -u origin master
+
+    3. After I did the above from the command line under the PlayingCard folder, 
+         I could see the remote branch as follows:
+
+      Williams-MacBook-Pro:PlayingCard wlabagnara$ git branch -a
+       * master
+       remotes/origin/master 
+    
+    4. Then I was able to commit/push to the remote repository directly from XCODE.
+    5. Then I could view the code I pushed from XCODE on the github site!
+
+
+    ***** End *****
